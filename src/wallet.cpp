@@ -36,7 +36,7 @@ constexpr int ADDRESS_LENGTH = 95;
 
 // Allow only regular addresses (no integrated addresses, no subaddresses)
 // Values taken from cryptonote_config.h (CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX)
-constexpr uint64_t valid_prefixes[] = { 18, 53, 24 };
+constexpr uint64_t valid_prefixes[] = { 0xd7, 0x7b54, 0x77d4 };
 
 constexpr std::array<int, 9> block_sizes{ 0, 2, 3, 5, 6, 7, 9, 10, 11 };
 constexpr int block_sizes_lookup[11] = { 0, -1, 1, 2, -1, 3, 4, 5, -1, 6, 7 };
